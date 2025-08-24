@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot powered by Gemini 2.5 Flash API using Baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "test:api": "node test.js"
+  },
+  "keywords": ["whatsapp", "bot", "gemini", "baileys", "chatbot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "baileys": "^6.7.18",
+    "pino": "^9.9.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
